@@ -1,0 +1,20 @@
+[user]
+   name = Oussama Lamarti
+   email = oussama@lamarti.xyz
+
+[pager]
+   diff = less
+
+[color "status"]
+   added = 121
+   changed = 11
+   deleted = 1
+   untracked = 13
+
+[color "diff"]
+   old = 1
+   new = 121
+   meta = 11
+   frag = 13
+[pull]
+	rebase = true
