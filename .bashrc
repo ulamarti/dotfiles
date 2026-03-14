@@ -22,6 +22,7 @@ export PATH="$SCRIPTS:$PATH"
 unalias -a
 alias vi=vim
 alias rm=trash
+alias cc=claude
 alias tree='tree -a'
 alias free='free -h'
 alias diff='diff --color'
