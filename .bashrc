@@ -121,6 +121,3 @@ PROMPT_COMMAND="_ps1"
 cd(){
    builtin cd "$@" && l
 }
-
-# OpenClaw Completion
-source "/Users/lamarti/.openclaw/completions/openclaw.bash"
