@@ -24,8 +24,9 @@ alias vi=vim
 alias rm=trash
 alias tree='tree -a'
 alias free='free -h'
-alias df='df -H'
 alias diff='diff --color'
+alias df='df -H'
+alias sz='du -sh'
 alias mk='makepkg -si'
 alias cf='ls | wc -l'
 alias ls='ls --color'
@@ -120,3 +121,6 @@ PROMPT_COMMAND="_ps1"
 cd(){
    builtin cd "$@" && l
 }
+
+# OpenClaw Completion
+source "/Users/lamarti/.openclaw/completions/openclaw.bash"
