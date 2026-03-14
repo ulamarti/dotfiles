@@ -82,7 +82,7 @@ ino " ""<Left>
 ino ' ''<Left>
 
 " abbr
-ab cf #include <bits/stdc++.h>
+ab dt <C-R>=strftime("%Y-%m-%d")<CR>
 
 " Start at last edit position
 au BufReadPost * if line("'\"") > 1 | exe "norm! g'\"" | endif
@@ -127,7 +127,8 @@ se fcs=vert:\▏    " Custom vim split line
 se shm+=Fc        " Avoid most of the Hit Enter Messages
 se enc=utf-8      " UTF-8 byte sequence
 se tag=tags;/     " Look for a file named ctags
-se cb=unnamedplus " Yank to clipboard
+se cb=unnamed     " Yank to clipboard
+se udir=$HOME/.vim/undo
 se ruf=%30(%=%#LineNr#%.50F\ [%{strlen(&ft)?&ft:'none'}]\ %l:%c\ %p%%%) " Statusline
 
 " Color
