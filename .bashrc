@@ -21,8 +21,8 @@ export PATH="$SCRIPTS:$PATH"
 # Aliases
 unalias -a
 alias vi=vim
-alias rm=trash
 alias cc=claude
+alias rm="rm -rf"
 alias tree='tree -a'
 alias free='free -h'
 alias diff='diff --color'
