@@ -183,3 +183,8 @@ hi Function     ctermfg=121  ctermbg=NONE cterm=bold
 hi Identifier   ctermfg=121  ctermbg=NONE cterm=NONE
 hi Define       ctermfg=0    ctermbg=NONE cterm=NONE
 hi Delimiter    ctermfg=0    ctermbg=NONE cterm=NONE
+hi markdownH1	ctermfg=Yellow cterm=bold
+hi markdownH2	ctermfg=Yellow cterm=bold
+hi markdownH3	ctermfg=Yellow cterm=bold
+hi markdownHeadingDelimiter ctermfg=yellow cterm=bold
+hi markdownOrderedListMarker ctermfg=green cterm=bold
